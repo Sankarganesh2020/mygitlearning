@@ -11,78 +11,83 @@
 
 Go to directory
 
-git init
+	git init
  
 
 ##### status — Show the current state of the repository including un-added and un-committed files
 
-git status
+	git status
  
 
 ##### add — Add a file to the repository staging area
 
 Create a file, e.g. file.txt
-git add file.txt
+
+	git add file.txt
+
 Add all new or changed files to the repository staging area (the period means all)
 
-git add .
+	git add .
  
 
 ##### commit — Commit all changes to the repository for first time (-m means message)
 
-git commit –m “Initial commit”
+	git commit –m “Initial commit”
 
 ##### Commit all changes to the repository for later activities
 
-git commit –m “Description of changes being made to project”
+	git commit –m “Description of changes being made to project”
  
 
 ##### branch — Create a new branch of the project
 
 Choose a name for the new branch (original branch is master), e.g. test
-git branch test
+
+	git branch test
+	
 List all branches (* appears next to current branch)
 
-git branch
+	git branch
  
 
 ##### checkout — Switch branches and check-out all files (e.g. to test branch)
 
-git checkout test
+	git checkout test
 
 ##### Create a new branch and check-out files in one command
 
-git checkout –b test
+	git checkout –b test
  
 
 ##### merge — Merge two branches together (go to the destination branch first, e.g. master)
 
-git checkout master
-git merge test
+	git checkout master
+	
+	git merge test
  
 
 ##### (delete) — Delete a branch that you no longer need (e.g. after a merge)
 
-git branch test –d
+	git branch test –d
 
 ##### Or to force the delete:
 
-git branch test –D
+	git branch test –D
  
 
 ##### log — View commit history (including long commit ID numbers)
 
-git log
+	git log
  
 
 ##### revert — Revert all files back to a previous commit point
 
-git revert <long commit ID from the log command>
+	git revert <long commit ID from the log command>
 
 
 #####Removes cache from a specific file so that it can be added to the .gitignore
 
-rm -cache
+	rm -cache
 
 ##### Editing the configuration file
 
