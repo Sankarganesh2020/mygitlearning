@@ -96,3 +96,5 @@ List all branches (* appears next to current branch)
 After doing this, you may fix the identity used for this commit with:
 
     git commit --amend --reset-author
+	
+##### git lg : A better way to display your git logs in your console. Command url : https://codingforeverybody.com/snippets/git-lg	
