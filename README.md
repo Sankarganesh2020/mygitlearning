@@ -37,6 +37,11 @@ Add all new or changed files to the repository staging area (the period means al
 ##### Commit all changes to the repository for later activities
 
 	git commit –m “Description of changes being made to project”
+	
+##### Push an existing repository
+
+	git remote add origin https://github.com/Sankarganesh2020/myrepo
+	git push -u origin master
  
 
 ##### branch — Create a new branch of the project
