@@ -1,5 +1,40 @@
 # My Git Learning Repository 
 
+
+##### create a new repository on the command line
+
+
+	echo "# Test Repo" >> README.md
+
+	git init
+
+	git add README.md
+
+	git commit -m "first commit"
+
+	git branch -M main
+
+	git remote add origin https://github.com/Sankarganesh2020/myrepo.git
+
+	git push -u origin main
+
+
+##### push an existing repository from the command line
+
+
+	git remote add origin https://github.com/Sankarganesh2020/myrepo.git
+
+
+	git branch -M main
+
+
+	git push -u origin main
+
+
+
+
+
+
 ## Git commands
 
 
